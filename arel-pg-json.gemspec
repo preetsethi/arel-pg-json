@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   Arel::PgJson::BuildInfo.new.add_to_gemspec(spec)
 
-  spec.add_runtime_dependency 'arel'
+  spec.add_runtime_dependency 'activerecord', '~> 6.0'
 
   spec.add_development_dependency 'bundler', '~> 1.7'
   spec.add_development_dependency 'rake', '~> 10.0'
